@@ -1,0 +1,31 @@
+Lembretes JAVA -
+
+C:\Users\bcardosoc\eclipse-workspace 
+
+Classe - Primeira letra maiuscula  (Aula)
+Pacote - Primeira letra minuscula [mais palavras - primeira letra maiuscula]  aula
+Variavel -  Primeira letra minuscula [mais palavras - primeira letra maiuscula] notaDoAluno
+
+Constante:  conteudo nao é modificavel 
+declaração : final int Numero = 2; 
+
+CTRL+SHIFT+O   [---] importar os pacotes correspondentes das classes automaticamente 
+
+
+=============================
+veiculo - litro gastro por km
+gasolina - valor do litro 
+distancia - saber a distancia a percorrer 
+
+
+gasta 1 litro por 3km
+valor - 5 reais por litro 
+distancia - 9 km 
+
+ kmtotal/kmporlitro = 
+ 9/3= 3
+ 
+ valor*tantodelitroquepreciso 
+ 5*3= 15
+ 
+ gastarei 15 conto pra andar 9km consumindo 1l a cada 3km. 
