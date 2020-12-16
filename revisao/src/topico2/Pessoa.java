@@ -1,6 +1,9 @@
 package topico2;
 
 import java.time.LocalDate;
+import java.util.Collection;
+import java.util.ArrayList;
+
 
 public abstract class Pessoa implements Cliente, Fornecedor, Usuario{
 
@@ -9,6 +12,11 @@ public abstract class Pessoa implements Cliente, Fornecedor, Usuario{
 	protected double rendaBruta;
 	protected String login;
 	protected String senha;
+	protected Collection<Acesso> acessos;
+	protected Collection<Endereco> enderecos;
+	
+	
+	
 
 	public Pessoa(String nome, String telefoneFixo, double rendaBruta, String login, String senha) {
           this.nome = nome;
@@ -16,8 +24,18 @@ public abstract class Pessoa implements Cliente, Fornecedor, Usuario{
           this.rendaBruta = rendaBruta;
           this.login = login;
           this.senha = senha;
+          this.acessos = new ArrayList<Acesso>();
+          this.enderecos = new ArrayList<Endereco>();
 	}
 
+	 public Collection<Acesso> getAcesso(){
+		 return this.acessos;
+	 }
+	 
+	 public Collection<Endereco> getEnderecos(){
+		 return this.enderecos;
+	 }
+	
 	public String obterPedidosDoPeriodo(LocalDate inicio, LocalDate fim) {
 		String relatorioPedidos = "";
 		

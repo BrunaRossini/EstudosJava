@@ -11,9 +11,10 @@ public class Endereco {
 	private String pais;
 	private long cep;
 	private boolean principal; 
+	private Pessoa pessoa; // pessoa a qual o acesso esta vinculado
 	
 	
-	public Endereco(TipoLogradouro tipo, String logradouro, int numero, String bairro, String cidade, String estado, String pais,long cep, boolean principal) {
+	public Endereco(TipoLogradouro tipo, String logradouro, int numero, String bairro, String cidade, String estado, String pais,long cep, boolean principal, Pessoa pessoa) {
 		
 		this.tipo = tipo;
 		this.logradouro = logradouro;
@@ -24,6 +25,17 @@ public class Endereco {
 		this.pais = pais;
 		this.cep = cep;
 		this.principal = principal;
+		this.pessoa = pessoa;
+	}
+
+
+	public Pessoa getPessoa() {
+		return pessoa;
+	}
+
+
+	public void setPessoa(Pessoa pessoa) {
+		this.pessoa = pessoa;
 	}
 
 
