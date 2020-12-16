@@ -1,5 +1,7 @@
 package topico2;
 
-public class Usuario {
-
+interface Usuario {
+ 
+	 public String obterUltimoAcesso();
+	 public String obterHistoricoAcessos();
 }
