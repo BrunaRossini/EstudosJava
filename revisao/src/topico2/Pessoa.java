@@ -13,7 +13,7 @@ public abstract class Pessoa {
           this.telefoneFixo = telefoneFixo;
           this.rendaBruta = rendaBruta;
           this.login = login;
-          this.senha = senha;  
+          this.senha = senha;
 	}
 
 	
