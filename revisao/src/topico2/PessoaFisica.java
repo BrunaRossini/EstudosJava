@@ -108,45 +108,6 @@ public class PessoaFisica  extends Pessoa {
 	}
 	
 
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getTelefoneFixo() {
-		return telefoneFixo;
-	}
-
-	public void setTelefoneFixo(String telefoneFixo) {
-		this.telefoneFixo = telefoneFixo;
-	}
-
-	public double getRendaBruta() {
-		return rendaBruta;
-	}
-
-	public void setRendaBruta(double rendaBruta) {
-		this.rendaBruta = rendaBruta;
-	}
-
-	public String getLogin() {
-		return login;
-	}
-
-	public void setLogin(String login) {
-		this.login = login;
-	}
-
-	public String getSenha() {
-		return senha;
-	}
-
-	public void setSenha(String senha) {
-		this.senha = senha;
-	}
 
 	
 	
