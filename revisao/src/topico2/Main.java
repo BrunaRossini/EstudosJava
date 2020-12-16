@@ -20,6 +20,8 @@ public class Main {
 			
 		System.out.println("\n Endereço: " + e1.getTipo() + " " + e1.getLogradouro() + ", " + e1.getNumero());
 
+		System.out.println("\n Renda Bruta de " + p.nome + "\n R$: "+ ((PessoaFisica)p).calcularRendaLiquida());
+		
 	}
 
 }

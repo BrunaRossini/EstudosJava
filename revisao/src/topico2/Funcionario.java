@@ -3,6 +3,6 @@ package topico2;
 interface Funcionario {
 	/*Criar a assinatura dos métodos,
 	 * toda classe que implementar a interface precisa seguir a assinatura*/	
-	double calcularRendaLiquida();
+	public double calcularRendaLiquida();
 
 }
