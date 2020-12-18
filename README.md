@@ -1,9 +1,9 @@
-<h1>Repositório de programas básicos em Java 
+<h2>Repositório de programas básicos em Java
 
 <p>Programas para aprendizagem e fixação dos conceitos da linguagem Orientada a Objetos Java. 
 <p>Exercicios propostos em sala de aula da matéria LP2A4 do IFSP com professor Vagner. 
 
-<h2>Revisão
+<h3>Revisão
 
 <p> Tópico2: Realizado a construção das classes do sistema corporativo baseado no diagrama de classe proposto.
 
