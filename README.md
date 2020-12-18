@@ -1,6 +1,4 @@
-<h1> Repositório de programas básicos em Java 
-
-
+<h2> Repositório de programas básicos em Java 
 
 <p> Programas para aprendizagem e fixação dos conceitos da linguagem Orientada a Objetos Java. 
 Exercicios propostos em sala de aula da matéria LP2A4 do IFSP com professor Vagner. 
